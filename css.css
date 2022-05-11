@@ -20,6 +20,21 @@ ul.iop {
     left: 400px;
 }
 
+
+
+
+.glavn{
+    width:1250px;
+    height:auto;
+
+    position: relative;
+    top:1%;
+    left:10%;
+    
+
+}
+
+
 .iop3{
     position:absolute;
     top:10px;
@@ -404,3 +419,5 @@ ul.iop {
 .left{
     float:left;
 }
+
+
