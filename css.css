@@ -46,7 +46,7 @@ ul.iop {
 
 
 .glavn{
-    width:100%;
+    width:1250px;
     height:auto;
 
     position: relative;
@@ -442,6 +442,499 @@ ul.iop {
 .left{
     float:left;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 390px){ 
+
+
+
+
+
+
+
+
+    ul.iop {
+        margin: 0; /* Обнуляем значение отступов */
+        padding: 4px; /* Значение полей */
+    
+    }
+    ul.iop li {
+
+        display: inline; /* Отображать как строчный элемент */
+        margin-right: 5px; /* Отступ слева */
+        border: 0px solid #000; /* Рамка вокруг текста */
+        padding: 3px; /* Поля вокруг текста */
+
+    }
+
+
+
+    .iop2{
+        position:absolute;
+        top:10px;
+        left: 400px;
+        
+    }
+
+
+    
+
+    .glavn{
+        width:1250px;
+        height:auto;
+
+        position: relative;
+        top:1%;
+        left:6%;
+    
+
+    }
+
+
+
+    .iop3{
+        position:absolute;
+        top:10px;
+        left: 750px;
+    }
+
+    .iop66{
+    position:absolute;
+    top:8px;
+    left: 1050px;
+    
+ }
+    
+    .iop6:hover {
+        -webkit-transform: rotateZ(10deg);
+        -ms-transform: rotateZ(10deg);
+        transform: rotateZ(10deg);
+    
+    }
+
+    .iop66:hover{
+        color:orange;
+    
+    }
+
+
+
+    .iop4{
+        position:absolute;
+        top:35px;
+        left: 1050px;
+    
+    }
+
+
+    .iop78:hover {
+        color: orange;
+    }
+
+
+
+
+
+    .vkus{
+        position: absolute;
+        top:350px;
+        left:540px;
+    }
+
+
+    #zv{
+        color: rgb(138, 128, 128);
+    }
+
+    .dodo{
+        color: aliceblue;
+        position: absolute;
+        top:700px;
+        left:550px;
+    }
+    .bot1{
+        position:absolute;
+        top:30px;
+        left:1160px;
+    }
+
+    .glav1{
+        width:100%;
+        height: 300px;
+        float:left;
+    }
+
+    .glav2{
+
+        position: relative;
+        top:5px;
+        left:20px;
+        width: 220px;
+        height: 275px;
+        background: url('img/glavi.jpg') no-repeat;
+        background-size: 100%;
+    
+        border-radius:20px;
+        border: 3px solid orange;
+        float:left;
+        margin: 5px;
+
+
+    
+    
+ 
+
+
+    }
+
+    .glav3{
+        position: relative;
+        top:5px;
+        left:20px;
+        width: 220px;
+        height: 275px;
+        background: url('img/kom.jpg') no-repeat;
+        background-size: 100%;
+        border-radius:20px;
+        border: 3px solid orange;
+        float:left;
+        margin:5px;
+
+
+    
+    
+ 
+
+
+    }
+
+    .glav4{
+        position: relative;
+        top:5px;
+        left:20px;
+        width: 220px;
+        height: 275px;
+        background: url('img/logo4.jpg') no-repeat;
+        background-size: 100%;
+        border-radius:20px;
+        border: 3px solid orange;
+        float:left;
+        margin:5px;
+
+
+    
+    
+ 
+
+
+    }
+
+
+    .glav5{
+        position: relative;
+        top:5px;
+        left:20px;
+        width: 220px;
+        height: 275px;
+        background: url('img/logo5.jpg') no-repeat;
+        background-size: 100%;
+        border-radius:20px;
+        border: 3px solid orange;
+        float:left;
+        margin:5px;
+
+
+    
+    
+ 
+
+
+    }
+
+    .glav6{
+        position: relative;
+        top:5px;
+        left:20px;
+        width: 220px;
+        height: 275px;
+        background: url('img/logo6.jpg') no-repeat;
+        background-size: 100%;
+        border-radius:20px;
+        border: 3px solid orange;
+        float:left;
+        margin:5px;
+
+
+    
+    
+ 
+
+
+    }
+
+    .gl1{
+        width:100%;
+        height: 100px;
+        float:left;
+    }
+
+
+
+
+    .gl2{
+        position: relative;
+        top:1px;
+        left:50px;
+        width: 260px;
+        height: 100px;
+        background: url('img/1.png') no-repeat;
+        background-size: 100%;
+    
+        float:left;
+        margin:5px;
+        
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+
+    
+    
+ 
+
+
+    }
+
+
+
+    .gl3{
+        position: relative;
+        top:1px;
+        left:50px;
+        width: 260px;
+        height: 100px;
+        background: url('img/2.png') no-repeat;
+        background-size: 100%;
+    
+        float:left;
+        margin:5px;
+    
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+
+    
+    
+ 
+
+
+    }
+
+
+
+    .gl4{
+        position: relative;
+        top:1px;
+        left:50px;
+        width: 260px;
+        height: 100px;
+        background: url('img/3.png') no-repeat;
+        background-size: 100%;
+    
+        float:left;
+        margin:5px;
+    
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+
+    
+    
+ 
+
+
+    }
+
+
+
+    .gl5{
+        position: relative;
+        top:1px;
+        left:50px;
+        width: 260px;
+        height: 100px;
+        background: url('img/4.png') no-repeat;
+        background-size: 100%;
+    
+        float:left;
+        margin:5px;
+    
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+
+    
+    
+ 
+
+
+    }
+
+
+
+    .gl6{
+        position: relative;
+        top:1px;
+        left:50px;
+        width: 260px;
+        height: 100px;
+        background: url('img/5.png') no-repeat;
+        background-size: 100%;
+    
+        float:left;
+        margin:5px;
+    
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+
+    
+    
+ 
+
+
+    }
+
+
+
+    .gl2:hover,.gl3:hover,.gl4:hover,.gl5:hover,.gl6:hover{
+        box-shadow:none;
+    }
+
+    .text{
+        position:relative;
+        top:45px;
+        left: 50px;
+    }
+    .bez{
+    
+        position: absolute;
+        top: 730px;
+        left: 280px;
+    
+    }
+    .bez1{
+        float:left;
+        position: relative;
+        top: 5px;
+        left: 350px;
+    }
+
+    #bez{
+        color: darkgray;
+        position: relative;
+        top:0;
+     
+    }
+
+    .pizza{
+        position:absolute;
+        top:900px;
+        left:30px;
+    }
+    .piz{
+    
+        width:300px;
+        height:370px;
+        float:left;
+    }
+ .efek{
+    width:230px;
+    transition: 0.4s;
+    position: relative;
+    left:40px;
+    
+ }
+    
+     .efek:hover{
+
+        -webkit-transform: translateY(7px);
+        transform: translateY(7px);
+
+    }
+
+    .textColor{
+        color: darkgrey;
+    }
+    .main-btn{
+    
+        color: #e9a714;
+        background-color: #ffc1074d;
+        border: none;
+        border-radius: 8px;
+    
+    
+    }
+    .main-btn:hover{
+        background-color:#ff6900 ;
+        color: white;
+    }
+    .left{
+        float:left;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
