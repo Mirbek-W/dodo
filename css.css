@@ -46,12 +46,12 @@ ul.iop {
 
 
 .glavn{
-    width:1250px;
+    width:100%;
     height:auto;
 
     position: relative;
     top:1%;
-    left:10%;
+    left:6%;
     
 
 }
@@ -442,6 +442,9 @@ ul.iop {
 .left{
     float:left;
 }
+
+
+
 
 
 
