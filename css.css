@@ -1,38 +1,16 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ul.iop {
     margin: 0; /* Обнуляем значение отступов */
     padding: 4px; /* Значение полей */
-    
-   }
-   ul.iop li {
+
+}
+ul.iop li {
 
     display: inline; /* Отображать как строчный элемент */
     margin-right: 5px; /* Отступ слева */
     border: 0px solid #000; /* Рамка вокруг текста */
     padding: 3px; /* Поля вокруг текста */
 
-   }
+}
 
 
 
@@ -65,22 +43,22 @@ ul.iop {
 }
 
 .iop66{
-    position:absolute;
-    top:8px;
-    left: 1050px;
-    
+position:absolute;
+top:8px;
+left: 1050px;
+
 }
 
 .iop6:hover {
     -webkit-transform: rotateZ(10deg);
     -ms-transform: rotateZ(10deg);
     transform: rotateZ(10deg);
-    
-  }
+
+}
 
 .iop66:hover{
     color:orange;
-    
+
 }
 
 
@@ -89,7 +67,7 @@ ul.iop {
     position:absolute;
     top:35px;
     left: 1050px;
-    
+
 }
 
 
@@ -102,9 +80,9 @@ ul.iop {
 
 
 .vkus{
-     position: absolute;
-     top:350px;
-     left:540px;
+    position: absolute;
+    top:350px;
+    left:540px;
 }
 
 
@@ -139,16 +117,16 @@ ul.iop {
     height: 275px;
     background: url('img/glavi.jpg') no-repeat;
     background-size: 100%;
-    
+
     border-radius:20px;
     border: 3px solid orange;
     float:left;
     margin: 5px;
 
 
-    
-    
- 
+
+
+
 
 
 }
@@ -167,9 +145,9 @@ ul.iop {
     margin:5px;
 
 
-    
-    
- 
+
+
+
 
 
 }
@@ -188,9 +166,9 @@ ul.iop {
     margin:5px;
 
 
-    
-    
- 
+
+
+
 
 
 }
@@ -210,9 +188,9 @@ ul.iop {
     margin:5px;
 
 
-    
-    
- 
+
+
+
 
 
 }
@@ -231,19 +209,20 @@ ul.iop {
     margin:5px;
 
 
-    
-    
- 
+
+
+
 
 
 }
 
 .gl1{
+    position: relative;
+    top:80px;
     width:100%;
-    height: 100px;
-    float:left;
-}
+    height: 80px;
 
+}
 
 
 
@@ -255,16 +234,16 @@ ul.iop {
     height: 100px;
     background: url('img/1.png') no-repeat;
     background-size: 100%;
-    
+
     float:left;
     margin:5px;
     
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 
 
-    
-    
- 
+
+
+
 
 
 }
@@ -279,16 +258,16 @@ ul.iop {
     height: 100px;
     background: url('img/2.png') no-repeat;
     background-size: 100%;
-    
+
     float:left;
     margin:5px;
-    
+
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 
 
-    
-    
- 
+
+
+
 
 
 }
@@ -303,16 +282,16 @@ ul.iop {
     height: 100px;
     background: url('img/3.png') no-repeat;
     background-size: 100%;
-    
+
     float:left;
     margin:5px;
-    
+
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 
 
-    
-    
- 
+
+
+
 
 
 }
@@ -327,16 +306,16 @@ ul.iop {
     height: 100px;
     background: url('img/4.png') no-repeat;
     background-size: 100%;
-    
+
     float:left;
     margin:5px;
-    
+
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 
 
-    
-    
- 
+
+
+
 
 
 }
@@ -351,16 +330,16 @@ ul.iop {
     height: 100px;
     background: url('img/5.png') no-repeat;
     background-size: 100%;
-    
+
     float:left;
     margin:5px;
-    
+
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 
 
-    
-    
- 
+
+
+
 
 
 }
@@ -377,11 +356,11 @@ ul.iop {
     left: 50px;
 }
 .bez{
-    
+
     position: absolute;
     top: 730px;
     left: 280px;
-    
+
 }
 .bez1{
     float:left;
@@ -394,7 +373,7 @@ ul.iop {
     color: darkgray;
     position: relative;
     top:0;
-     
+ 
 }
 
 .pizza{
@@ -403,20 +382,20 @@ ul.iop {
     left:30px;
 }
 .piz{
-    
+
     width:300px;
     height:370px;
     float:left;
 }
 .efek{
-    width:230px;
-    transition: 0.4s;
-    position: relative;
-    left:40px;
-    
+width:230px;
+transition: 0.4s;
+position: relative;
+left:40px;
+
 }
 
-.efek:hover{
+ .efek:hover{
 
     -webkit-transform: translateY(7px);
     transform: translateY(7px);
@@ -427,13 +406,13 @@ ul.iop {
     color: darkgrey;
 }
 .main-btn{
-    
+
     color: #e9a714;
     background-color: #ffc1074d;
     border: none;
     border-radius: 8px;
-    
-    
+
+
 }
 .main-btn:hover{
     background-color:#ff6900 ;
@@ -473,7 +452,6 @@ ul.iop {
 
 
 
-@media only screen and (max-width: 390px){ 
 
 
 
@@ -481,6 +459,16 @@ ul.iop {
 
 
 
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1024px){
 
     ul.iop {
         margin: 0; /* Обнуляем значение отступов */
@@ -501,22 +489,26 @@ ul.iop {
     .iop2{
         position:absolute;
         top:10px;
-        left: 400px;
-        
+        left: 300px;
+       
+
     }
 
 
     
 
     .glavn{
-        width:1250px;
+        width:900px;
         height:auto;
 
         position: relative;
         top:1%;
-        left:6%;
-    
+        left:2%;
+        
 
+    }
+    .hob{
+        width:300px;
     }
 
 
@@ -524,27 +516,18 @@ ul.iop {
     .iop3{
         position:absolute;
         top:10px;
-        left: 750px;
+        left: 560px;
+    
     }
+  
 
     .iop66{
     position:absolute;
     top:8px;
-    left: 1050px;
+    left: 750px;
     
  }
     
-    .iop6:hover {
-        -webkit-transform: rotateZ(10deg);
-        -ms-transform: rotateZ(10deg);
-        transform: rotateZ(10deg);
-    
-    }
-
-    .iop66:hover{
-        color:orange;
-    
-    }
 
 
 
@@ -556,10 +539,7 @@ ul.iop {
     }
 
 
-    .iop78:hover {
-        color: orange;
-    }
-
+  
 
 
 
@@ -571,9 +551,7 @@ ul.iop {
     }
 
 
-    #zv{
-        color: rgb(138, 128, 128);
-    }
+
 
     .dodo{
         color: aliceblue;
@@ -583,115 +561,49 @@ ul.iop {
     }
     .bot1{
         position:absolute;
-        top:30px;
-        left:1160px;
+        top:20px;
+        left:890px;
     }
 
     .glav1{
         width:100%;
-        height: 300px;
-        float:left;
+        height: 200px;
+        
     }
 
     .glav2{
-
-        position: relative;
-        top:5px;
-        left:20px;
-        width: 220px;
-        height: 275px;
-        background: url('img/glavi.jpg') no-repeat;
-        background-size: 100%;
-    
-        border-radius:20px;
-        border: 3px solid orange;
-        float:left;
-        margin: 5px;
-
-
-    
-    
- 
-
-
+        width: 170px;
+        height: 210px;
+        border-radius:15px;
     }
 
     .glav3{
-        position: relative;
-        top:5px;
-        left:20px;
-        width: 220px;
-        height: 275px;
-        background: url('img/kom.jpg') no-repeat;
-        background-size: 100%;
-        border-radius:20px;
+        width: 170px;
+        height: 210px;
         border: 3px solid orange;
-        float:left;
-        margin:5px;
-
-
-    
-    
- 
-
-
     }
 
     .glav4{
-        position: relative;
-        top:5px;
-        left:20px;
-        width: 220px;
-        height: 275px;
-        background: url('img/logo4.jpg') no-repeat;
-        background-size: 100%;
-        border-radius:20px;
+        width: 170px;
+        height: 210px;
         border: 3px solid orange;
-        float:left;
-        margin:5px;
-
-
-    
-    
- 
-
-
     }
 
 
     .glav5{
-        position: relative;
-        top:5px;
-        left:20px;
-        width: 220px;
-        height: 275px;
-        background: url('img/logo5.jpg') no-repeat;
-        background-size: 100%;
-        border-radius:20px;
+        width: 170px;
+        height: 210px;
+
         border: 3px solid orange;
-        float:left;
-        margin:5px;
-
-
-    
-    
- 
-
-
     }
 
     .glav6{
-        position: relative;
-        top:5px;
-        left:20px;
-        width: 220px;
-        height: 275px;
-        background: url('img/logo6.jpg') no-repeat;
-        background-size: 100%;
-        border-radius:20px;
+
+        width: 170px;
+        height: 210px;
+
         border: 3px solid orange;
-        float:left;
-        margin:5px;
+
 
 
     
@@ -702,130 +614,52 @@ ul.iop {
     }
 
     .gl1{
+        position: relative;
+        top:80px;
         width:100%;
-        height: 100px;
-        float:left;
+        height: 80px;
+ 
     }
 
 
 
 
     .gl2{
-        position: relative;
-        top:1px;
-        left:50px;
-        width: 260px;
-        height: 100px;
-        background: url('img/1.png') no-repeat;
-        background-size: 100%;
-    
-        float:left;
-        margin:5px;
-        
-        box-shadow: 0 0 10px rgba(0,0,0,0.5);
 
-
-    
-    
- 
-
+        width: 210px;
+        height: 85px;
 
     }
 
 
 
     .gl3{
-        position: relative;
-        top:1px;
-        left:50px;
-        width: 260px;
-        height: 100px;
-        background: url('img/2.png') no-repeat;
-        background-size: 100%;
-    
-        float:left;
-        margin:5px;
-    
-        box-shadow: 0 0 10px rgba(0,0,0,0.5);
-
-
-    
-    
- 
-
-
+        width: 210px;
+        height: 85px;
     }
 
 
 
     .gl4{
-        position: relative;
-        top:1px;
-        left:50px;
-        width: 260px;
-        height: 100px;
-        background: url('img/3.png') no-repeat;
-        background-size: 100%;
-    
-        float:left;
-        margin:5px;
-    
-        box-shadow: 0 0 10px rgba(0,0,0,0.5);
 
-
-    
-    
- 
-
+        width: 210px;
+        height: 85px;
 
     }
 
 
 
     .gl5{
-        position: relative;
-        top:1px;
-        left:50px;
-        width: 260px;
-        height: 100px;
-        background: url('img/4.png') no-repeat;
-        background-size: 100%;
-    
-        float:left;
-        margin:5px;
-    
-        box-shadow: 0 0 10px rgba(0,0,0,0.5);
 
-
-    
-    
- 
-
-
+        width: 210px;
+        height: 85px;
     }
 
 
 
     .gl6{
-        position: relative;
-        top:1px;
-        left:50px;
-        width: 260px;
-        height: 100px;
-        background: url('img/5.png') no-repeat;
-        background-size: 100%;
-    
-        float:left;
-        margin:5px;
-    
-        box-shadow: 0 0 10px rgba(0,0,0,0.5);
-
-
-    
-    
- 
-
-
+        width: 210px;
+        height: 85px;
     }
 
 
@@ -842,8 +676,8 @@ ul.iop {
     .bez{
     
         position: absolute;
-        top: 730px;
-        left: 280px;
+        top: 550px;
+        left: 10px;
     
     }
     .bez1{
@@ -862,22 +696,22 @@ ul.iop {
 
     .pizza{
         position:absolute;
-        top:900px;
-        left:30px;
+        top:650px;
+
     }
     .piz{
     
-        width:300px;
+        width:210px;
         height:370px;
         float:left;
     }
- .efek{
-    width:230px;
-    transition: 0.4s;
-    position: relative;
-    left:40px;
+    .efek{
+        width:200px;
+        transition: 0.4s;
+        position: relative;
+        left:40px;
     
- }
+    }
     
      .efek:hover{
 
@@ -949,6 +783,278 @@ ul.iop {
 
 
 
+@media only screen and (max-width: 768px){
+
+    ul.iop {
+        margin: 0; 
+        padding: 4px; 
+    
+    }
+    ul.iop li {
+
+        display: inline; 
+        margin-right: 5px; 
+        border: 0px solid #000; 
+        padding: 3px;
+
+    }
+
+
+
+    .iop2{
+        position:absolute;
+        top:8px;
+        left: 180px;
+       
+
+    }
+
+
+    
+
+    .glavn{
+        width:668px;
+        height:auto;
+
+        position: relative;
+        top:1%;
+        left:2%;
+        
+
+    }
+    .hob{
+        width:180px;
+    }
+
+
+
+    .iop3{
+        position:absolute;
+        top:8px;
+        left: 430px;
+    
+    }
+  
+
+    .iop66{
+    position:absolute;
+    top:1px;
+    left: 590px;
+    
+ }
+    
+
+
+
+    .iop4{
+        position:absolute;
+        top:35px;
+        left: 1050px;
+    
+    }
+
+
+  
+
+
+
+
+    .vkus{
+        position: absolute;
+        top:350px;
+        left:540px;
+    }
+
+
+
+
+    .dodo{
+        color: aliceblue;
+        position: absolute;
+        top:700px;
+        left:550px;
+    }
+    .bot1{
+        position:absolute;
+        top:10px;
+        left:650px;
+    }
+
+    .glav1{
+        width:100%;
+        height: 180px;
+        
+    }
+
+    .glav2{
+        width: 120px;
+        height: 145px;
+        border-radius:15px;
+    }
+
+    .glav3{
+        width: 120px;
+        height: 145px;
+        border: 3px solid orange;
+    }
+
+    .glav4{
+        width: 120px;
+        height: 145px;
+        border: 3px solid orange;
+    }
+
+
+    .glav5{
+        width: 120px;
+        height: 145px;
+
+        border: 3px solid orange;
+    }
+
+    .glav6{
+        width: 120px;
+        height: 145px;
+
+        border: 3px solid orange;
+
+
+
+    
+    
+ 
+
+
+    }
+
+    .gl1{
+        position: relative;
+        top:1px;
+        width:100%;
+        height: 80px;
+ 
+    }
+
+
+
+
+    .gl2{
+
+        width: 150px;
+        height: 60px;
+
+    }
+
+
+
+    .gl3{
+        width: 150px;
+        height: 60px;
+    }
+
+
+
+    .gl4{
+
+        width: 150px;
+        height: 60px;
+
+    }
+
+
+
+    .gl5{
+        width: 150px;
+        height: 60px;
+    }
+
+
+
+    .gl6{
+        width: 150px;
+        height: 60px;
+    }
+
+
+
+    .gl2:hover,.gl3:hover,.gl4:hover,.gl5:hover,.gl6:hover{
+        box-shadow:none;
+    }
+
+    .text{
+        position:relative;
+        top:1px;
+        left: 40px;
+    }
+    .bez{
+    
+        position: absolute;
+        top: 430px;
+        left: 10px;
+    
+    }
+    .bez1{
+        float:left;
+        position: relative;
+        top: 5px;
+        left: 350px;
+    }
+
+    #bez{
+        color: darkgray;
+        position: relative;
+        top:0;
+     
+    }
+
+    .pizza{
+        position:absolute;
+        top:550px;
+
+    }
+    .piz{
+    
+        width:210px;
+        height:370px;
+        float:left;
+    }
+    .efek{
+        width:200px;
+        transition: 0.4s;
+        position: relative;
+        left:40px;
+    
+    }
+    
+     .efek:hover{
+
+        -webkit-transform: translateY(7px);
+        transform: translateY(7px);
+
+    }
+
+    .textColor{
+        color: darkgrey;
+    }
+    .main-btn{
+    
+        color: #e9a714;
+        background-color: #ffc1074d;
+        border: none;
+        border-radius: 8px;
+    
+    
+    }
+    .main-btn:hover{
+        background-color:#ff6900 ;
+        color: white;
+    }
+    .left{
+        float:left;
+    }
+
+
+}
 
 
 
@@ -984,6 +1090,283 @@ ul.iop {
 
 
 
+
+/* для телефона финиш*/
+
+
+
+@media only screen and (max-width: 768px){
+
+    ul.iop {
+        margin: 0; 
+        padding: 4px; 
+    
+    }
+    ul.iop li {
+
+        display: inline; 
+        margin-right: 5px; 
+        border: 0px solid #000; 
+        padding: 3px;
+
+    }
+
+
+
+    .iop2{
+        position:absolute;
+        top:8px;
+        left: 180px;
+       
+
+    }
+
+
+    
+
+    .glavn{
+        width:668px;
+        height:auto;
+
+        position: relative;
+        top:1%;
+        left:2%;
+        
+
+    }
+    .hob{
+        width:180px;
+    }
+
+
+
+    .iop3{
+        position:absolute;
+        top:8px;
+        left: 430px;
+    
+    }
+  
+
+    .iop66{
+    position:absolute;
+    top:1px;
+    left: 590px;
+    
+ }
+    
+
+
+
+    .iop4{
+        position:absolute;
+        top:35px;
+        left: 1050px;
+    
+    }
+
+
+  
+
+
+
+
+    .vkus{
+        position: absolute;
+        top:350px;
+        left:540px;
+    }
+
+
+
+
+    .dodo{
+        color: aliceblue;
+        position: absolute;
+        top:700px;
+        left:550px;
+    }
+    .bot1{
+        position:absolute;
+        top:10px;
+        left:650px;
+    }
+
+    .glav1{
+        width:100%;
+        height: 180px;
+        
+    }
+
+    .glav2{
+        width: 120px;
+        height: 145px;
+        border-radius:15px;
+    }
+
+    .glav3{
+        width: 120px;
+        height: 145px;
+        border: 3px solid orange;
+    }
+
+    .glav4{
+        width: 120px;
+        height: 145px;
+        border: 3px solid orange;
+    }
+
+
+    .glav5{
+        width: 120px;
+        height: 145px;
+
+        border: 3px solid orange;
+    }
+
+    .glav6{
+        width: 120px;
+        height: 145px;
+
+        border: 3px solid orange;
+
+
+
+    
+    
+ 
+
+
+    }
+
+    .gl1{
+        position: relative;
+        top:1px;
+        width:100%;
+        height: 80px;
+ 
+    }
+
+
+
+
+    .gl2{
+
+        width: 150px;
+        height: 60px;
+
+    }
+
+
+
+    .gl3{
+        width: 150px;
+        height: 60px;
+    }
+
+
+
+    .gl4{
+
+        width: 150px;
+        height: 60px;
+
+    }
+
+
+
+    .gl5{
+        width: 150px;
+        height: 60px;
+    }
+
+
+
+    .gl6{
+        width: 150px;
+        height: 60px;
+    }
+
+
+
+    .gl2:hover,.gl3:hover,.gl4:hover,.gl5:hover,.gl6:hover{
+        box-shadow:none;
+    }
+
+    .text{
+        position:relative;
+        top:1px;
+        left: 40px;
+    }
+    .bez{
+    
+        position: absolute;
+        top: 430px;
+        left: 10px;
+    
+    }
+    .bez1{
+        float:left;
+        position: relative;
+        top: 5px;
+        left: 350px;
+    }
+
+    #bez{
+        color: darkgray;
+        position: relative;
+        top:0;
+     
+    }
+
+    .pizza{
+        position:absolute;
+        top:550px;
+
+    }
+    .piz{
+    
+        width:210px;
+        height:370px;
+        float:left;
+    }
+    .efek{
+        width:200px;
+        transition: 0.4s;
+        position: relative;
+        left:40px;
+    
+    }
+    
+     .efek:hover{
+
+        -webkit-transform: translateY(7px);
+        transform: translateY(7px);
+
+    }
+
+    .textColor{
+        color: darkgrey;
+    }
+    .main-btn{
+    
+        color: #e9a714;
+        background-color: #ffc1074d;
+        border: none;
+        border-radius: 8px;
+    
+    
+    }
+    .main-btn:hover{
+        background-color:#ff6900 ;
+        color: white;
+    }
+    .left{
+        float:left;
+    }
+
+
+}
 
 
 
