@@ -24,7 +24,7 @@
     -moz-transition: right 0.3s;
     transition: right 0.3s;
     /* определяем цвет фона панели */
-    background: #16a085;
+    background: black;
     /* поверх других элементов */
     z-index: 2000;
 }
@@ -324,61 +324,19 @@ body {
  * состояние ссылок меню при наведении
  */
 
-.nav > ul > li > a:hover,
-.nav > ul > li > a:focus {
-    color: white;
-    padding-left: 15px;
-}
+
 
 
 /**
  * линия подчеркивания ссылок меню
  */
 
-.nav > ul > li > a:before {
-    content: '';
-    display: block;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    height: 1px;
-    width: 100%;
-    -webkit-transition: width 0s ease;
-    transition: width 0s ease;
-}
-
-.nav > ul > li > a:after {
-    content: '';
-    display: block;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 1px;
-    width: 100%;
-    background: #3bc1a0;
-    -webkit-transition: width .5s ease;
-    transition: width .5s ease;
-}
 
 
 /**
  * анимируем линию подчеркивания 
  * ссылок при наведении
  */
-
-.nav > ul > li > a:hover:before {
-    width: 0%;
-    background: #3bc1a0;
-    -webkit-transition: width .5s ease;
-    transition: width .5s ease;
-}
-
-.nav > ul > li > a:hover:after {
-    width: 0%;
-    background: transparent;
-    -webkit-transition: width 0s ease;
-    transition: width 0s ease;
-}
 
 
 /* фон затемнения на основной контент 
