@@ -1099,9 +1099,13 @@ left:40px;
 
 @media only screen and (max-width: 768px){
 
+
+
+    
+
     ul.iop {
-        margin: 0; 
-        padding: 4px; 
+        margin: 0;
+        padding: 4px;
     
     }
     ul.iop li {
@@ -1128,7 +1132,7 @@ left:40px;
     
 
     .glavn{
-        width:375px;
+        width:300px;
         height:auto;
 
         position: relative;
@@ -1138,7 +1142,7 @@ left:40px;
 
     }
     .hob{
-        width:180px;
+        width:150px;
     }
     .iop2{
         display: none;
@@ -1192,46 +1196,37 @@ left:40px;
         display:none;
     }
 
-    .glav1{
-        width:100%;
-        height: 180px;
-        overflow: scroll; /* Добавляем полосы прокрутки */
 
-        padding: 5px; /* Поля вокруг текста */
-        border: solid 1px black; /* Параметры рамки */
-        float: left;
-        
-    }
 
     .glav2{
-        width: 120px;
-        height: 145px;
+        width: 90px;
+        height: 110px;
         border-radius:15px;
     }
 
     .glav3{
-        width: 120px;
-        height: 145px;
+        width: 90px;
+        height: 110px;
         border: 3px solid orange;
     }
 
     .glav4{
-        width: 120px;
-        height: 145px;
+        width: 90px;
+        height: 110px;
         border: 3px solid orange;
     }
 
 
     .glav5{
-        width: 120px;
-        height: 145px;
+        width: 90px;
+        height: 110px;
 
         border: 3px solid orange;
     }
 
     .glav6{
-        width: 120px;
-        height: 145px;
+        width: 90px;
+        height: 110px;
 
         border: 3px solid orange;
 
