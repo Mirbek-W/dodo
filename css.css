@@ -1,1372 +1,743 @@
 ul.iop {
-    margin: 0; /* Обнуляем значение отступов */
-    padding: 4px; /* Значение полей */
-
+  margin: 0; /* Обнуляем значение отступов */
+  padding: 4px; /* Значение полей */
 }
 ul.iop li {
+  display: inline; /* Отображать как строчный элемент */
+  margin-right: 5px; /* Отступ слева */
+  border: 0px solid #000; /* Рамка вокруг текста */
+  padding: 3px; /* Поля вокруг текста */
+}
 
+.iop2 {
+  position: absolute;
+  top: 10px;
+  left: 400px;
+}
+
+.glavn {
+  width: 1250px;
+  height: auto;
+
+  position: relative;
+  top: 1%;
+  left: 6%;
+}
+
+.iop3 {
+  position: absolute;
+  top: 10px;
+  left: 750px;
+}
+
+.iop66 {
+  position: absolute;
+  top: 8px;
+  left: 1050px;
+}
+
+.iop6:hover {
+  -webkit-transform: rotateZ(10deg);
+  -ms-transform: rotateZ(10deg);
+  transform: rotateZ(10deg);
+}
+
+.iop66:hover {
+  color: orange;
+}
+
+.iop4 {
+  position: absolute;
+  top: 35px;
+  left: 1050px;
+}
+
+.iop78:hover {
+  color: orange;
+}
+
+#zv {
+  color: rgb(138, 128, 128);
+}
+
+.dodo {
+  color: aliceblue;
+  position: absolute;
+  top: 700px;
+  left: 550px;
+}
+.bot1 {
+  position: absolute;
+  top: 30px;
+  left: 1160px;
+}
+
+.glav1 {
+  width: 100%;
+  height: 300px;
+  float: left;
+}
+
+.glav2 {
+  position: relative;
+  top: 5px;
+  left: 20px;
+  width: 220px;
+  height: 275px;
+  background: url("img/glavi.jpg") no-repeat;
+  background-size: 100%;
+
+  border-radius: 20px;
+  border: 3px solid orange;
+  float: left;
+  margin: 5px;
+}
+
+.glav3 {
+  position: relative;
+  top: 5px;
+  left: 20px;
+  width: 220px;
+  height: 275px;
+  background: url("img/kom.jpg") no-repeat;
+  background-size: 100%;
+  border-radius: 20px;
+  border: 3px solid orange;
+  float: left;
+  margin: 5px;
+}
+
+.glav4 {
+  position: relative;
+  top: 5px;
+  left: 20px;
+  width: 220px;
+  height: 275px;
+  background: url("img/logo4.jpg") no-repeat;
+  background-size: 100%;
+  border-radius: 20px;
+  border: 3px solid orange;
+  float: left;
+  margin: 5px;
+}
+
+.glav5 {
+  position: relative;
+  top: 5px;
+  left: 20px;
+  width: 220px;
+  height: 275px;
+  background: url("img/logo5.jpg") no-repeat;
+  background-size: 100%;
+  border-radius: 20px;
+  border: 3px solid orange;
+  float: left;
+  margin: 5px;
+}
+
+.glav6 {
+  position: relative;
+  top: 5px;
+  left: 20px;
+  width: 220px;
+  height: 275px;
+  background: url("img/logo6.jpg") no-repeat;
+  background-size: 100%;
+  border-radius: 20px;
+  border: 3px solid orange;
+  float: left;
+  margin: 5px;
+}
+
+.gl1 {
+  position: relative;
+  top: 80px;
+  width: 100%;
+  height: 80px;
+}
+
+.gl2 {
+  position: relative;
+  top: 1px;
+  left: 50px;
+  width: 260px;
+  height: 100px;
+  background: url("img/1.png") no-repeat;
+  background-size: 100%;
+
+  float: left;
+  margin: 5px;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.gl3 {
+  position: relative;
+  top: 1px;
+  left: 50px;
+  width: 260px;
+  height: 100px;
+  background: url("img/2.png") no-repeat;
+  background-size: 100%;
+
+  float: left;
+  margin: 5px;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.gl4 {
+  position: relative;
+  top: 1px;
+  left: 50px;
+  width: 260px;
+  height: 100px;
+  background: url("img/3.png") no-repeat;
+  background-size: 100%;
+
+  float: left;
+  margin: 5px;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.gl5 {
+  position: relative;
+  top: 1px;
+  left: 50px;
+  width: 260px;
+  height: 100px;
+  background: url("img/4.png") no-repeat;
+  background-size: 100%;
+
+  float: left;
+  margin: 5px;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.gl6 {
+  position: relative;
+  top: 1px;
+  left: 50px;
+  width: 260px;
+  height: 100px;
+  background: url("img/5.png") no-repeat;
+  background-size: 100%;
+
+  float: left;
+  margin: 5px;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.gl2:hover,
+.gl3:hover,
+.gl4:hover,
+.gl5:hover,
+.gl6:hover {
+  box-shadow: none;
+}
+
+.text {
+  position: relative;
+  top: 45px;
+  left: 50px;
+}
+.bez {
+  position: absolute;
+  top: 730px;
+  left: 280px;
+}
+.bez1 {
+  float: left;
+  position: relative;
+  top: 5px;
+  left: 350px;
+}
+
+#bez {
+  color: darkgray;
+  position: relative;
+  top: 0;
+}
+
+.pizza {
+  position: absolute;
+  top: 900px;
+  left: 30px;
+}
+.piz {
+  width: 300px;
+  height: 370px;
+  float: left;
+}
+.efek {
+  width: 230px;
+  transition: 0.4s;
+  position: relative;
+  left: 40px;
+}
+
+.efek:hover {
+  -webkit-transform: translateY(7px);
+  transform: translateY(7px);
+}
+
+.textColor {
+  color: darkgrey;
+}
+.main-btn {
+  color: #e9a714;
+  background-color: #ffc1074d;
+  border: none;
+  border-radius: 8px;
+}
+.main-btn:hover {
+  background-color: #ff6900;
+  color: white;
+}
+.left {
+  float: left;
+}
+
+@media only screen and (max-width: 1024px) {
+  ul.iop {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+  }
+  ul.iop li {
     display: inline; /* Отображать как строчный элемент */
     margin-right: 5px; /* Отступ слева */
     border: 0px solid #000; /* Рамка вокруг текста */
     padding: 3px; /* Поля вокруг текста */
+  }
 
-}
+  .iop2 {
+    position: absolute;
+    top: 10px;
+    left: 300px;
+  }
 
-
-
-
-.iop2{
-    position:absolute;
-    top:10px;
-    left: 400px;
-}
-
-
-
-
-.glavn{
-    width:1250px;
-    height:auto;
+  .glavn {
+    width: 900px;
+    height: auto;
 
     position: relative;
-    top:1%;
-    left:6%;
-    
+    top: 1%;
+    left: 2%;
+  }
+  .hob {
+    width: 300px;
+  }
 
-}
+  .iop3 {
+    position: absolute;
+    top: 10px;
+    left: 560px;
+  }
 
-
-
-.iop3{
-    position:absolute;
-    top:10px;
+  .iop66 {
+    position: absolute;
+    top: 8px;
     left: 750px;
-}
+  }
 
-.iop66{
-position:absolute;
-top:8px;
-left: 1050px;
-
-}
-
-.iop6:hover {
-    -webkit-transform: rotateZ(10deg);
-    -ms-transform: rotateZ(10deg);
-    transform: rotateZ(10deg);
-
-}
-
-.iop66:hover{
-    color:orange;
-
-}
-
-
-
-.iop4{
-    position:absolute;
-    top:35px;
+  .iop4 {
+    position: absolute;
+    top: 35px;
     left: 1050px;
+  }
 
-}
-
-
-.iop78:hover {
-    color: orange;
-}
-
-
-
-
-
-.vkus{
+  .bot1 {
     position: absolute;
-    top:350px;
-    left:540px;
-}
+    top: 20px;
+    left: 890px;
+  }
 
+  .glav1 {
+    width: 100%;
+    height: 200px;
+  }
 
-#zv{
-    color: rgb(138, 128, 128);
-}
+  .glav2 {
+    width: 170px;
+    height: 210px;
+    border-radius: 15px;
+  }
 
-.dodo{
-    color: aliceblue;
-    position: absolute;
-    top:700px;
-    left:550px;
-}
-.bot1{
-    position:absolute;
-    top:30px;
-    left:1160px;
-}
-
-.glav1{
-    width:100%;
-    height: 300px;
-    float:left;
-}
-
-.glav2{
-
-    position: relative;
-    top:5px;
-    left:20px;
-    width: 220px;
-    height: 275px;
-    background: url('img/glavi.jpg') no-repeat;
-    background-size: 100%;
-
-    border-radius:20px;
+  .glav3 {
+    width: 170px;
+    height: 210px;
     border: 3px solid orange;
-    float:left;
-    margin: 5px;
+  }
 
-
-
-
-
-
-
-}
-
-.glav3{
-    position: relative;
-    top:5px;
-    left:20px;
-    width: 220px;
-    height: 275px;
-    background: url('img/kom.jpg') no-repeat;
-    background-size: 100%;
-    border-radius:20px;
+  .glav4 {
+    width: 170px;
+    height: 210px;
     border: 3px solid orange;
-    float:left;
-    margin:5px;
+  }
 
+  .glav5 {
+    width: 170px;
+    height: 210px;
 
-
-
-
-
-
-}
-
-.glav4{
-    position: relative;
-    top:5px;
-    left:20px;
-    width: 220px;
-    height: 275px;
-    background: url('img/logo4.jpg') no-repeat;
-    background-size: 100%;
-    border-radius:20px;
     border: 3px solid orange;
-    float:left;
-    margin:5px;
+  }
 
+  .glav6 {
+    width: 170px;
+    height: 210px;
 
-
-
-
-
-
-}
-
-
-.glav5{
-    position: relative;
-    top:5px;
-    left:20px;
-    width: 220px;
-    height: 275px;
-    background: url('img/logo5.jpg') no-repeat;
-    background-size: 100%;
-    border-radius:20px;
     border: 3px solid orange;
-    float:left;
-    margin:5px;
+  }
 
-
-
-
-
-
-
-}
-
-.glav6{
+  .gl1 {
     position: relative;
-    top:5px;
-    left:20px;
-    width: 220px;
-    height: 275px;
-    background: url('img/logo6.jpg') no-repeat;
-    background-size: 100%;
-    border-radius:20px;
-    border: 3px solid orange;
-    float:left;
-    margin:5px;
-
-
-
-
-
-
-
-}
-
-.gl1{
-    position: relative;
-    top:80px;
-    width:100%;
+    top: 80px;
+    width: 100%;
     height: 80px;
+  }
 
-}
+  .gl2 {
+    width: 210px;
+    height: 85px;
+  }
 
+  .gl3 {
+    width: 210px;
+    height: 85px;
+  }
 
+  .gl4 {
+    width: 210px;
+    height: 85px;
+  }
 
-.gl2{
+  .gl5 {
+    width: 210px;
+    height: 85px;
+  }
+
+  .gl6 {
+    width: 210px;
+    height: 85px;
+  }
+
+  .gl2:hover,
+  .gl3:hover,
+  .gl4:hover,
+  .gl5:hover,
+  .gl6:hover {
+    box-shadow: none;
+  }
+
+  .text {
     position: relative;
-    top:1px;
-    left:50px;
-    width: 260px;
-    height: 100px;
-    background: url('img/1.png') no-repeat;
-    background-size: 100%;
-
-    float:left;
-    margin:5px;
-    
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-
-
-
-
-
-
-
-}
-
-
-
-.gl3{
-    position: relative;
-    top:1px;
-    left:50px;
-    width: 260px;
-    height: 100px;
-    background: url('img/2.png') no-repeat;
-    background-size: 100%;
-
-    float:left;
-    margin:5px;
-
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-
-
-
-
-
-
-
-}
-
-
-
-.gl4{
-    position: relative;
-    top:1px;
-    left:50px;
-    width: 260px;
-    height: 100px;
-    background: url('img/3.png') no-repeat;
-    background-size: 100%;
-
-    float:left;
-    margin:5px;
-
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-
-
-
-
-
-
-
-}
-
-
-
-.gl5{
-    position: relative;
-    top:1px;
-    left:50px;
-    width: 260px;
-    height: 100px;
-    background: url('img/4.png') no-repeat;
-    background-size: 100%;
-
-    float:left;
-    margin:5px;
-
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-
-
-
-
-
-
-
-}
-
-
-
-.gl6{
-    position: relative;
-    top:1px;
-    left:50px;
-    width: 260px;
-    height: 100px;
-    background: url('img/5.png') no-repeat;
-    background-size: 100%;
-
-    float:left;
-    margin:5px;
-
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-
-
-
-
-
-
-
-}
-
-
-
-.gl2:hover,.gl3:hover,.gl4:hover,.gl5:hover,.gl6:hover{
-    box-shadow:none;
-}
-
-.text{
-    position:relative;
-    top:45px;
+    top: 45px;
     left: 50px;
-}
-.bez{
-
+  }
+  .bez {
     position: absolute;
-    top: 730px;
-    left: 280px;
-
-}
-.bez1{
-    float:left;
+    top: 550px;
+    left: 10px;
+  }
+  .bez1 {
+    float: left;
     position: relative;
     top: 5px;
     left: 350px;
-}
+  }
 
-#bez{
+  #bez {
     color: darkgray;
     position: relative;
-    top:0;
- 
-}
+    top: 0;
+  }
 
-.pizza{
-    position:absolute;
-    top:900px;
-    left:30px;
-}
-.piz{
+  .pizza {
+    position: absolute;
+    top: 650px;
+  }
+  .piz {
+    width: 210px;
+    height: 370px;
+    float: left;
+  }
+  .efek {
+    width: 200px;
+    transition: 0.4s;
+    position: relative;
+    left: 40px;
+  }
 
-    width:300px;
-    height:370px;
-    float:left;
-}
-.efek{
-width:230px;
-transition: 0.4s;
-position: relative;
-left:40px;
-
-}
-
- .efek:hover{
-
+  .efek:hover {
     -webkit-transform: translateY(7px);
     transform: translateY(7px);
+  }
 
-}
-
-.textColor{
+  .textColor {
     color: darkgrey;
-}
-.main-btn{
-
+  }
+  .main-btn {
     color: #e9a714;
     background-color: #ffc1074d;
     border: none;
     border-radius: 8px;
-
-
-}
-.main-btn:hover{
-    background-color:#ff6900 ;
+  }
+  .main-btn:hover {
+    background-color: #ff6900;
     color: white;
+  }
+  .left {
+    float: left;
+  }
 }
-.left{
-    float:left;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 1024px){
-
-    ul.iop {
-        margin: 0; /* Обнуляем значение отступов */
-        padding: 4px; /* Значение полей */
-    
-    }
-    ul.iop li {
-
-        display: inline; /* Отображать как строчный элемент */
-        margin-right: 5px; /* Отступ слева */
-        border: 0px solid #000; /* Рамка вокруг текста */
-        padding: 3px; /* Поля вокруг текста */
-
-    }
-
-
-
-    .iop2{
-        position:absolute;
-        top:10px;
-        left: 300px;
-       
-
-    }
-
-
-
-    
-
-    .glavn{
-        width:900px;
-        height:auto;
-
-        position: relative;
-        top:1%;
-        left:2%;
-        
-
-    }
-    .hob{
-        width:300px;
-    }
-
-
-
-    .iop3{
-        position:absolute;
-        top:10px;
-        left: 560px;
-    
-    }
-  
-
-    .iop66{
-    position:absolute;
-    top:8px;
-    left: 750px;
-    
- }
-    
-
-
-
-    .iop4{
-        position:absolute;
-        top:35px;
-        left: 1050px;
-    
-    }
-
-
-  
-
-
-
-
-    .vkus{
-        position: absolute;
-        top:350px;
-        left:540px;
-    }
-
-
-
-
-    .dodo{
-        color: aliceblue;
-        position: absolute;
-        top:700px;
-        left:550px;
-    }
-    .bot1{
-        position:absolute;
-        top:20px;
-        left:890px;
-    }
-
-    .glav1{
-        width:100%;
-        height: 200px;
-        
-    }
-
-    .glav2{
-        width: 170px;
-        height: 210px;
-        border-radius:15px;
-    }
-
-    .glav3{
-        width: 170px;
-        height: 210px;
-        border: 3px solid orange;
-    }
-
-    .glav4{
-        width: 170px;
-        height: 210px;
-        border: 3px solid orange;
-    }
-
-
-    .glav5{
-        width: 170px;
-        height: 210px;
-
-        border: 3px solid orange;
-    }
-
-    .glav6{
-
-        width: 170px;
-        height: 210px;
-
-        border: 3px solid orange;
-
-
-
-    
-    
- 
-
-
-    }
-
-    .gl1{
-        position: relative;
-        top:80px;
-        width:100%;
-        height: 80px;
- 
-    }
-
-
-
-
-    .gl2{
-
-        width: 210px;
-        height: 85px;
-
-    }
-
-
-
-    .gl3{
-        width: 210px;
-        height: 85px;
-    }
-
-
-
-    .gl4{
-
-        width: 210px;
-        height: 85px;
-
-    }
-
-
-
-    .gl5{
-
-        width: 210px;
-        height: 85px;
-    }
-
-
-
-    .gl6{
-        width: 210px;
-        height: 85px;
-    }
-
-
-
-    .gl2:hover,.gl3:hover,.gl4:hover,.gl5:hover,.gl6:hover{
-        box-shadow:none;
-    }
-
-    .text{
-        position:relative;
-        top:45px;
-        left: 50px;
-    }
-    .bez{
-    
-        position: absolute;
-        top: 550px;
-        left: 10px;
-    
-    }
-    .bez1{
-        float:left;
-        position: relative;
-        top: 5px;
-        left: 350px;
-    }
-
-    #bez{
-        color: darkgray;
-        position: relative;
-        top:0;
-     
-    }
-
-    .pizza{
-        position:absolute;
-        top:650px;
-
-    }
-    .piz{
-    
-        width:210px;
-        height:370px;
-        float:left;
-    }
-    .efek{
-        width:200px;
-        transition: 0.4s;
-        position: relative;
-        left:40px;
-    
-    }
-    
-     .efek:hover{
-
-        -webkit-transform: translateY(7px);
-        transform: translateY(7px);
-
-    }
-
-    .textColor{
-        color: darkgrey;
-    }
-    .main-btn{
-    
-        color: #e9a714;
-        background-color: #ffc1074d;
-        border: none;
-        border-radius: 8px;
-    
-    
-    }
-    .main-btn:hover{
-        background-color:#ff6900 ;
-        color: white;
-    }
-    .left{
-        float:left;
-    }
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 768px){
-
-    ul.iop {
-        margin: 0; 
-        padding: 4px; 
-    
-    }
-    ul.iop li {
-
-        display: inline; 
-        margin-right: 5px; 
-        border: 0px solid #000; 
-        padding: 3px;
-
-    }
-
-
-
-    .iop2{
-        position:absolute;
-        top:8px;
-        left: 180px;
-       
-
-    }
-
-
-    
-
-    .glavn{
-        width:668px;
-        height:auto;
-
-        position: relative;
-        top:1%;
-        left:2%;
-        
-
-    }
-    .hob{
-        width:180px;
-    }
-
-
-
-    .iop3{
-        position:absolute;
-        top:8px;
-        left: 430px;
-    
-    }
-  
-
-    .iop66{
-    position:absolute;
-    top:1px;
-    left: 590px;
-    
- }
-    
-
-
-
-    .iop4{
-        position:absolute;
-        top:35px;
-        left: 1050px;
-    
-    }
-
-
-  
-
-
-
-
-    .vkus{
-        position: absolute;
-        top:350px;
-        left:540px;
-    }
-
-
-
-
-    .dodo{
-        color: aliceblue;
-        position: absolute;
-        top:700px;
-        left:550px;
-    }
-    .bot1{
-        position:absolute;
-        top:10px;
-        left:650px;
-    }
-
-    .glav1{
-        width:100%;
-        height: 180px;
-        
-    }
-
-    .glav2{
-        width: 120px;
-        height: 145px;
-        border-radius:15px;
-    }
-
-    .glav3{
-        width: 120px;
-        height: 145px;
-        border: 3px solid orange;
-    }
-
-    .glav4{
-        width: 120px;
-        height: 145px;
-        border: 3px solid orange;
-    }
-
-
-    .glav5{
-        width: 120px;
-        height: 145px;
-
-        border: 3px solid orange;
-    }
-
-    .glav6{
-        width: 120px;
-        height: 145px;
-
-        border: 3px solid orange;
-
-
-
-    
-    
- 
-
-
-    }
-
-    .gl1{
-        position: relative;
-        top:1px;
-        width:100%;
-        height: 80px;
- 
-    }
-
-
-
-
-    .gl2{
-
-        width: 150px;
-        height: 60px;
-
-    }
-
-
-
-    .gl3{
-        width: 150px;
-        height: 60px;
-    }
-
-
-
-    .gl4{
-
-        width: 150px;
-        height: 60px;
-
-    }
-
-
-
-    .gl5{
-        width: 150px;
-        height: 60px;
-    }
-
-
-
-    .gl6{
-        width: 150px;
-        height: 60px;
-    }
-
-
-
-    .gl2:hover,.gl3:hover,.gl4:hover,.gl5:hover,.gl6:hover{
-        box-shadow:none;
-    }
-
-    .text{
-        position:relative;
-        top:1px;
-        left: 40px;
-    }
-    .bez{
-    
-        position: absolute;
-        top: 430px;
-        left: 10px;
-    
-    }
-    .bez1{
-        float:left;
-        position: relative;
-        top: 5px;
-        left: 350px;
-    }
-
-    #bez{
-        color: darkgray;
-        position: relative;
-        top:0;
-     
-    }
-
-    .pizza{
-        position:absolute;
-        top:550px;
-
-    }
-    .piz{
-    
-        width:210px;
-        height:370px;
-        float:left;
-    }
-    .efek{
-        width:200px;
-        transition: 0.4s;
-        position: relative;
-        left:40px;
-    
-    }
-    
-     .efek:hover{
-
-        -webkit-transform: translateY(7px);
-        transform: translateY(7px);
-
-    }
-
-    .textColor{
-        color: darkgrey;
-    }
-    .main-btn{
-    
-        color: #e9a714;
-        background-color: #ffc1074d;
-        border: none;
-        border-radius: 8px;
-    
-    
-    }
-    .main-btn:hover{
-        background-color:#ff6900 ;
-        color: white;
-    }
-    .left{
-        float:left;
-    }
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* для телефона финиш*/
 
 
 
-@media only screen and (max-width: 768px){
 
 
 
-    
 
-    ul.iop {
-        margin: 0;
-        padding: 4px;
-    
-    }
-    ul.iop li {
 
-        display: inline; 
-        margin-right: 5px; 
-        border: 0px solid #000; 
-        padding: 3px;
 
-    }
 
 
 
-    .iop2{
-        position:absolute;
-        top:8px;
-        left: 180px;
-       
 
-    }
 
 
 
-    
 
-    .glavn{
-        width:300px;
-        height:auto;
 
-        position: relative;
-        top:1%;
-        left:2%;
-        
 
-    }
-    .hob{
-        width:150px;
-    }
-    .iop2{
-        display: none;
-    }
 
 
 
-    .iop3{
-        display:none;
-    
-    }
-  
 
-    .iop66{
-        display:none;
-    
- }
-    
 
 
 
-    .iop4{
-        position:absolute;
-        top:35px;
-        left: 1050px;
-    
-    }
 
 
-  
 
 
 
 
-    .vkus{
-        position: absolute;
-        top:350px;
-        left:540px;
-    }
 
 
 
 
-    .dodo{
-        color: aliceblue;
-        position: absolute;
-        top:700px;
-        left:550px;
-    }
-    .bot1{
-        display:none;
-    }
 
+@media only screen and (max-width: 768px) {
+  /* скролл меню для телефона*/
+  .glav1 {
+    max-height: 145px;
+    display: flex;
+    overflow-x: auto;
+  }
 
+  .glav1::-webkit-scrollbar {
+    width: 0;
+  }
 
-    .glav2{
-        width: 90px;
-        height: 110px;
-        border-radius:15px;
-    }
+  .glav1,.glav2,.glav3,.glav4,.glav5,.glav6 {
+    min-width: 110px;
+  }
 
-    .glav3{
-        width: 90px;
-        height: 110px;
-        border: 3px solid orange;
-    }
+  .gl1{
+      max-height:105px;
+      display:flex;
+      overflow-x:auto;
+  }
+  .gl1::-webkit-scrollbar{
+      width: 0;
+  }
+  .gl1,.gl2,.gl3,.gl4,.gl5 {
+    min-width: 120px;
+  }
 
-    .glav4{
-        width: 90px;
-        height: 110px;
-        border: 3px solid orange;
-    }
 
+  /* скролл меню для телефона*/
 
-    .glav5{
-        width: 90px;
-        height: 110px;
+  ul.iop {
+    margin: 0;
+    padding: 4px;
+  }
+  ul.iop li {
+    display: inline;
+    margin-right: 5px;
+    border: 0px solid #000;
+    padding: 3px;
+  }
 
-        border: 3px solid orange;
-    }
+  .iop2 {
+    position: absolute;
+    top: 8px;
+    left: 180px;
+  }
 
-    .glav6{
-        width: 90px;
-        height: 110px;
+  .glavn {
+    width: 300px;
+    height: auto;
 
-        border: 3px solid orange;
+    position: relative;
+    top: 1%;
+    left: 2%;
+  }
+  .hob {
+    width: 150px;
+  }
+  .iop2 {
+    display: none;
+  }
 
+  .iop3 {
+    display: none;
+  }
 
-
-    
-    
- 
-
-
-    }
-
-    .gl1{
-        position: relative;
-        top:1px;
-        width:100%;
-        height: 80px;
- 
-    }
-
-
-
-
-    .gl2{
-
-        width: 150px;
-        height: 60px;
-
-    }
-
-
-
-    .gl3{
-        width: 150px;
-        height: 60px;
-    }
-
-
-
-    .gl4{
-
-        width: 150px;
-        height: 60px;
-
-    }
-
-
-
-    .gl5{
-        width: 150px;
-        height: 60px;
-    }
-
-
-
-    .gl6{
-        width: 150px;
-        height: 60px;
-    }
-
-
-
-    .gl2:hover,.gl3:hover,.gl4:hover,.gl5:hover,.gl6:hover{
-        box-shadow:none;
-    }
-
-    .text{
-        position:relative;
-        top:1px;
-        left: 40px;
-    }
-    .bez{
-    
-        position: absolute;
-        top: 430px;
-        left: 10px;
-    
-    }
-    .bez1{
-        float:left;
-        position: relative;
-        top: 5px;
-        left: 350px;
-    }
-
-    #bez{
-        color: darkgray;
-        position: relative;
-        top:0;
-     
-    }
-
-    .pizza{
-        position:absolute;
-        top:550px;
-
-    }
-    .piz{
-    
-        width:210px;
-        height:370px;
-        float:left;
-    
-    }
-    .efek{
-        width:200px;
-        transition: 0.4s;
-        position: relative;
-        left:40px;
-    
-    }
-    
-     .efek:hover{
-
-        -webkit-transform: translateY(7px);
-        transform: translateY(7px);
-
-    }
-
-    .textColor{
-        color: darkgrey;
-    }
-    .main-btn{
-    
-        color: #e9a714;
-        background-color: #ffc1074d;
-        border: none;
-        border-radius: 8px;
-    
-    
-    }
-    .main-btn:hover{
-        background-color:#ff6900 ;
-        color: white;
-    }
-    .left{
-        float:left;
-    }
-
-
+  .iop66 {
+    display: none;
+  }
+
+  .iop4 {
+    position: absolute;
+    top: 35px;
+    left: 1050px;
+  }
+
+  .bot1 {
+    display: none;
+  }
+
+  .glav2 {
+    width: 90px;
+    height: 110px;
+    border-radius: 15px;
+  }
+
+  .glav3 {
+    width: 90px;
+    height: 110px;
+    border: 3px solid orange;
+  }
+
+  .glav4 {
+    width: 90px;
+    height: 110px;
+    border: 3px solid orange;
+  }
+
+  .glav5 {
+    width: 90px;
+    height: 110px;
+
+    border: 3px solid orange;
+  }
+
+  .glav6 {
+    width: 90px;
+    height: 110px;
+
+    border: 3px solid orange;
+  }
+
+  .gl1 {
+    position: relative;
+    top: 1px;
+    width: 100%;
+    height: 80px;
+  }
+
+  .gl2 {
+    width: 150px;
+    height: 60px;
+  }
+
+  .gl3 {
+    width: 150px;
+    height: 60px;
+  }
+
+  .gl4 {
+    width: 150px;
+    height: 60px;
+  }
+
+  .gl5 {
+    width: 150px;
+    height: 60px;
+  }
+
+  .gl6 {
+    width: 150px;
+    height: 60px;
+  }
+
+  .gl2:hover,
+  .gl3:hover,
+  .gl4:hover,
+  .gl5:hover,
+  .gl6:hover {
+    box-shadow: none;
+  }
+
+  .text {
+    position: relative;
+    top: 0px;
+    left: 40px;}
+  .bez {
+    display: none;
+  }
+
+  .bez1 {
+    display: none;
+  }
+
+  #bez {
+    color: darkgray;
+    position: relative;
+    top: 0;
+  }
+
+  .pizza {
+    position: absolute;
+    top: 550px;
+  }
+  .piz {
+    width: 210px;
+    height: 370px;
+    float: left;
+  }
+  .efek {
+    width: 200px;
+    transition: 0.4s;
+    position: relative;
+    left: 40px;
+  }
+
+  .efek:hover {
+    -webkit-transform: translateY(7px);
+    transform: translateY(7px);
+  }
+
+  .textColor {
+    color: darkgrey;
+  }
+  .main-btn {
+    color: #e9a714;
+    background-color: #ffc1074d;
+    border: none;
+    border-radius: 8px;
+  }
+  .main-btn:hover {
+    background-color: #ff6900;
+    color: white;
+  }
+  .left {
+    float: left;
+  }
 }
-
-
