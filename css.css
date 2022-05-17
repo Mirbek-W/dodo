@@ -533,6 +533,10 @@ ul.iop li {
 
 
 @media only screen and (max-width: 768px) {
+
+  .glavn{
+      position: center;
+  }
   /* скролл меню для телефона*/
   .glav1 {
     max-height: 145px;
