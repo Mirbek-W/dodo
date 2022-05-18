@@ -15,6 +15,7 @@ ul.iop li {
   left: 400px;
 }
 
+
 .glavn {
   width: 1250px;
   height: auto;
@@ -267,8 +268,15 @@ ul.iop li {
   top: 900px;
   left: 30px;
 }
+.kombo{
+  position: absolute;
+  top: 1800px;
+  left: 30px;
+
+}
+
 .piz {
-  width: 200px;
+  width: 250px;
   height: 380px;
   float: left;
 }
@@ -755,12 +763,17 @@ ul.iop li {
     position: relative;
     top:20px;
     left:3px;
-    width: 320px;
+    width: 330px;
     height: 160px;
     float: left;
     font-size:x-small;
     
+    
+    
+    
   }
+
+  
 
   .lebel{
     width: 160px;
