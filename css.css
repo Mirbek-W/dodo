@@ -275,6 +275,27 @@ ul.iop li {
 
 }
 
+
+
+.zak{
+  position: absolute;
+  top: 2700px;
+  left: 30px;
+
+}
+.des{
+  position: absolute;
+  top: 3600px;
+  left: 30px;
+
+}
+.nap{
+  position: absolute;
+  top: 4500px;
+  left: 30px;
+
+}
+
 .piz {
   width: 250px;
   height: 380px;
@@ -309,6 +330,37 @@ ul.iop li {
   float: left;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 1024px) {
   ul.iop {
     margin: 0; /* Обнуляем значение отступов */
@@ -326,6 +378,36 @@ ul.iop li {
     top: 10px;
     left: 300px;
   }
+  .kombo{
+    position: absolute;
+    top: 1500px;
+    left: 30px;
+  
+  }
+  .text23{
+    position: relative;
+    top: 50px;
+  }
+  
+ .zak{
+   position: absolute;
+   top: 2400px;
+   left: 30px;
+
+ }
+ .des{
+   position: absolute;
+   top: 3300px;
+   left: 30px;
+
+ }
+.nap{
+  position: absolute;
+  top: 4200px;
+  left: 30px;
+
+}
+
 
   .glavn {
     width: 900px;
@@ -548,6 +630,10 @@ ul.iop li {
     margin-right: auto
 
   }
+  .text23{
+    position: relative;
+    top:0px;
+  }
 
 
 
@@ -620,6 +706,9 @@ ul.iop li {
     top: 8px;
     left: 180px;
   }
+
+
+
 
   .glavn {
     width: 330px;
@@ -749,6 +838,44 @@ ul.iop li {
     top: 550px;
     left:1px;
   }
+  .kombo{
+    position: absolute;
+    top: 1900px;
+    left:1px;
+  
+  }
+  
+  .zak{
+    position: absolute;
+    top: 3300px;
+    left:1px;
+  
+  }
+  .des{
+    position: absolute;
+    top: 4700px;
+    left:1px;
+  
+  }
+  .nap{
+    position: absolute;
+    top: 6100px;
+    left:1px;
+  
+  }
+  
+  .piz {
+    width: 250px;
+    height: 380px;
+    float: left;
+  }
+  .efek {
+    width: 230px;
+    transition: 0.4s;
+    position: relative;
+    left: 40px;
+  }
+  
 
 
 
@@ -814,5 +941,7 @@ ul.iop li {
 
 
   }
+
+  
 
 }
