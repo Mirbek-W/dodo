@@ -81,7 +81,7 @@ ul.iop li {
 .glav2 {
   position: relative;
   top: 5px;
-  left: 20px;
+  left: 10px;
   width: 220px;
   height: 275px;
   background: url("img/glavi.jpg") no-repeat;
@@ -268,8 +268,8 @@ ul.iop li {
   left: 30px;
 }
 .piz {
-  width: 300px;
-  height: 370px;
+  width: 200px;
+  height: 380px;
   float: left;
 }
 .efek {
@@ -535,8 +535,37 @@ ul.iop li {
 @media only screen and (max-width: 768px) {
 
   .glavn{
-      position: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+
   }
+
+
+
+
+
+
+
+
+
+
+  /* меню*/
+  .iop{
+    max-height: 145px;
+    display: flex;
+    overflow-x: auto;
+  }
+  .iop::-webkit-scrollbar {
+    width: 0;
+  }
+  .iop,.iop78 {
+    min-width: 80px;
+  }
+
+
+
+
   /* скролл меню для телефона*/
   .glav1 {
     max-height: 145px;
@@ -585,7 +614,7 @@ ul.iop li {
   }
 
   .glavn {
-    width: 300px;
+    width: 330px;
     height: auto;
 
     position: relative;
@@ -710,17 +739,42 @@ ul.iop li {
   .pizza {
     position: absolute;
     top: 550px;
+    left:1px;
   }
+
+
+
+
+
+  .left{
+    display: none;
+  }
+  
+
   .piz {
-    width: 210px;
-    height: 370px;
+    position: relative;
+    top:20px;
+    left:3px;
+    width: 320px;
+    height: 160px;
     float: left;
+    font-size:x-small;
+    
+  }
+
+  .lebel{
+    width: 160px;
+    height:150px;
+    
+    position: absolute;
+    top:0px;
+    left: 125px;
   }
   .efek {
-    width: 200px;
+    width:120px;
     transition: 0.4s;
     position: relative;
-    left: 40px;
+    left:1px;
   }
 
   .efek:hover {
@@ -728,20 +782,24 @@ ul.iop li {
     transform: translateY(7px);
   }
 
+
+
+
+
+
+
+
+
   .textColor {
     color: darkgrey;
   }
   .main-btn {
-    color: #e9a714;
-    background-color: #ffc1074d;
-    border: none;
-    border-radius: 8px;
+    position: relative;
+    top:-20px;
+    left:90px;
+
+
+
   }
-  .main-btn:hover {
-    background-color: #ff6900;
-    color: white;
-  }
-  .left {
-    float: left;
-  }
+
 }
