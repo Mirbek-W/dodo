@@ -632,20 +632,23 @@ ul li a{
 
   }
   /* меню*/
+  .iop0{
+    width:100%;
+    height:105px;
+    position:fixed;
+    z-index: 9999999;
+    
+  }
 
   .iop0{
-    position:fixed;
-    z-index: 9999;
-    
-  }   
-  .iop{
-    max-height: 200px;
+    max-height:100px;
     display: flex;
-    overflow-x: auto;
-
+    overflow-y:auto;
+    
   }
-  .iop::-webkit-scrollbar {
-    width: 0;
+
+  .iop0::-webkit-scrollbar {
+    width:0px;
   }
 
   .iop79{
