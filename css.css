@@ -8,13 +8,18 @@ ul.iop li {
   border: 0px solid #000; /* Рамка вокруг текста */
   padding: 3px; /* Поля вокруг текста */
 }
-
+.iop79{
+  float:left;
+}
 .iop2 {
   position: absolute;
   top: 10px;
   left: 400px;
 }
-
+ul li a{
+  color: #000;
+  text-decoration:none;
+}
 
 .glavn {
   width: 1250px;
@@ -384,11 +389,7 @@ ul.iop li {
     left: 30px;
   
   }
-  .text23{
-    position: relative;
-    top: 50px;
-  }
-  
+
  .zak{
    position: absolute;
    top: 2400px;
@@ -630,36 +631,30 @@ ul.iop li {
     margin-right: auto
 
   }
-  .text23{
-    position: relative;
-    top:0px;
-  }
-
-
-
-
-
-
-
-
-
-
   /* меню*/
+
+  .iop0{
+    position:fixed;
+    z-index: 9999;
+    
+  }   
   .iop{
-    max-height: 145px;
+    max-height: 200px;
     display: flex;
     overflow-x: auto;
+
   }
   .iop::-webkit-scrollbar {
     width: 0;
   }
-  .iop,.iop78 {
-    min-width: 80px;
+
+  .iop79{
+    width:auto;
+    height:25px;
+    background-color:#E2E2E2;
+    border-radius:8px;
+    margin:9px;
   }
-
-
-
-
   /* скролл меню для телефона*/
   .glav1 {
     max-height: 145px;
@@ -738,6 +733,8 @@ ul.iop li {
     top: 35px;
     left: 1050px;
   }
+
+
 
   .bot1 {
     display: none;
@@ -820,22 +817,31 @@ ul.iop li {
     top: 0px;
     left: 40px;}
   .bez {
-    display: none;
+   
+    position: absolute;
+    top: 340px;
+    left: 0px;
+  
+    
+  }
+  .bez1 {
+    float: left;
+    position: relative;
+    top: -50px;
+    left: 50px;
+    
   }
 
-  .bez1 {
-    display: none;
-  }
+
 
   #bez {
     color: darkgray;
-    position: relative;
-    top: 0;
+    
   }
 
   .pizza {
     position: absolute;
-    top: 550px;
+    top: 450px;
     left:1px;
   }
   .kombo{
@@ -875,17 +881,10 @@ ul.iop li {
     position: relative;
     left: 40px;
   }
-  
-
-
-
-
-
   .left{
     display: none;
   }
   
-
   .piz {
     position: relative;
     top:20px;
@@ -893,14 +892,9 @@ ul.iop li {
     width: 330px;
     height: 160px;
     float: left;
-    font-size:x-small;
-    
-    
-    
-    
+    font-size:x-small;    
   }
 
-  
 
   .lebel{
     width: 160px;
@@ -921,15 +915,6 @@ ul.iop li {
     -webkit-transform: translateY(7px);
     transform: translateY(7px);
   }
-
-
-
-
-
-
-
-
-
   .textColor {
     color: darkgrey;
   }
@@ -938,9 +923,9 @@ ul.iop li {
     top:-20px;
     left:90px;
 
-
-
   }
+
+
 
   
 
